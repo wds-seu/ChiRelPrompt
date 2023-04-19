@@ -9,13 +9,13 @@ pip package: `/pip_packages.txt`
 
 # Datasets
 
-CTLD-h: `/examples/training/hypernymy/datasets/hypernymydetection.tsv.gz`
+CTLD-h: `/examples/training/hypernymy/datasets/`
 
-CTLD-a: `/examples/training/attribute/datasets/attributedetection.tsv.gz`
+CTLD-a: `/examples/training/attribute/datasets/`
 
-CTLD-m: `/examples/training/multirelation/datasets/multi-relation-detection-detection.tsv.gz`
+CTLD-m: `/examples/training/multirelation/datasets/`
 
-CTLD-f: `/examples/training/datasets/relation-similarity.tsv.gz`
+CTLD-f: `/examples/training/datasets/`
 
 Statistical information of datasets is below:
 
