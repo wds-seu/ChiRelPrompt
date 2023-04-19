@@ -46,13 +46,13 @@ Multi-relation detection:
 
 | Model    | Dataset |  Macro_p   | Macro_R   | Macro_F1  |
 | -------- | ------- |  --------- | --------- | --------- |
-| D-Tensor | CTLD-m  |  76.52     | 73.34     | 74.78     |
-| Sphere   | CTLD-m  |  79.32     | 75.18     | 77.56     |
-| CCE      | CTLD-m  |  65.89     | 75.30     | 69.53     |
-|TraConcept| CTLD-m  |  65.89     | 75.30     | 69.53     |
-| DPRE     | CTLD-m  |  **82.23** | **81.56** | **81.80** |
-| CPRE     | CTLD-m  |  **82.23** | **81.56** | **81.80** |
-| IPRE     | CTLD-m  |  **82.23** | **81.56** | **81.80** |
+| D-Tensor | CTLD-m  |  76.52     | 73.34     | 74.89     |
+| Sphere   | CTLD-m  |  83.59     | 81.08     | 82.31     |
+| CCE      | CTLD-m  |  78.97     | 77.67     | 78.31     |
+|TraConcept| CTLD-m  |  82.23     | 81.56     | 81.90     |
+| DPRE     | CTLD-m  |  83.44     | 82.39     | 82.91     |
+| CPRE     | CTLD-m  |  **83.59** | 82.42     | 83.17     |
+| IPRE     | CTLD-m  |  83.42     | **82.99** | **83.20** |
 
 Binary relation detection:
 
