@@ -3,9 +3,9 @@
 
 # Requirements
 
-conda env: `/cxy_conda_environment.yaml`
+conda env: `/conda_environment.yaml`
 
-pip package: `/cxy_pip_packages.txt`
+pip package: `/pip_packages.txt`
 
 # Datasets
 
@@ -28,11 +28,11 @@ Statistical information of datasets is below:
 
 # Main File
 
+Multi-relation Detection: `/examples/training/multirelation/training_multi_relation_benchmark.py`
+
 Hypernymy Detection: `/examples/training/hypernymy/training_hypernymy_benchmark.py`
 
 Concept Attribute Detection: `/examples/training/attribute/training_attribute_benchmark.py`
-
-Multi-relation Detection: `/examples/training/multirelation/training_multi_relation_benchmark.py`
 
 # Run
 
