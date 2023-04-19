@@ -86,9 +86,3 @@ CTLD-a:
 >
 > TraConcept: TraConcept: Constructing a Concept Framework from Chinese Traffic Legal Texts. CCKS 2022
 >
-
-# Reference
-
-[SentenceTransformers]([SentenceTransformers Documentation — Sentence-Transformers documentation (sbert.net)](https://www.sbert.net/))
-
-> refer to [Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](https://arxiv.org/abs/1908.10084)(EMNLP 2019)
