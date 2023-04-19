@@ -3,9 +3,9 @@
 
 # Requirements
 
-conda env: `/penngao_conda_environment.yaml`
+conda env: `/cxy_conda_environment.yaml`
 
-pip package: `/penngao_pip_packages.txt`
+pip package: `/cxy_pip_packages.txt`
 
 # Datasets
 
