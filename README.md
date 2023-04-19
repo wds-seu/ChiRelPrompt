@@ -42,36 +42,41 @@ python training_*_benchmark.py
 
 # Results
 
-Multi-relation detection:
+CTLD-m:
 
-| Model    | Dataset |  Macro_p   | Macro_R   | Macro_F1  |
-| -------- | ------- |  --------- | --------- | --------- |
-| D-Tensor | CTLD-m  |  76.52     | 73.34     | 74.89     |
-| Sphere   | CTLD-m  |  83.59     | 81.08     | 82.31     |
-| CCE      | CTLD-m  |  78.97     | 77.67     | 78.31     |
-|TraConcept| CTLD-m  |  82.23     | 81.56     | 81.90     |
-| DPRE     | CTLD-m  |  83.44     | 82.39     | 82.91     |
-| CPRE     | CTLD-m  |  **83.59** | 82.42     | 83.17     |
-| IPRE     | CTLD-m  |  83.42     | **82.99** | **83.20** |
+| Model    |  Macro_p   | Macro_R   | Macro_F1  |
+| -------- |  --------- | --------- | --------- |
+| D-Tensor |  76.52     | 73.34     | 74.89     |
+| Sphere   |  83.59     | 81.08     | 82.31     |
+| CCE      |  78.97     | 77.67     | 78.31     |
+|TraConcept|  82.23     | 81.56     | 81.90     |
+| DPRE     |  83.44     | 82.39     | 82.91     |
+| CPRE     |  **83.59** | 82.42     | 83.17     |
+| IPRE     |  83.42     | **82.99** | **83.20** |
 
-Binary relation detection:
+CTLD-h:
 
-| Model    | Dataset | Precision | Recall    | F1        |
-| -------- | ------- | --------- | --------- | --------- | 
-| D-Tensor | CTLD-h  | 87.78     | 74.88     | 61.56     | 
-| D-Tensor | CTLD-a  | 83.27     | 70.15     | 60.18     | 
-| Sphere   | CTLD-h  | 91.52     | 82.31     | 79.68     | 
-| Sphere   | CTLD-a  | 85.34     | 71.25     | 65.48     | 
-| CEE      | CTLD-h  | 92.34     | 85.25     | 83.56     | 
-| CEE      | CTLD-a  | 88.56     | 72.17     | 70.86     | 
-|TraConcept| CTLD-h  | 90.85     | 87.03     | 84.31     | 
-|TraConcept| CTLD-a  | 89.90     | 74.22     | 73.44     | 
-| DPRE     | CTLD-h  | 93.00     | 87.88     | **89.79** | 
-| DPRE     | CTLD-a  | 91.09     | 77.66     | **81.02** | 
-| CPRE     | CTLD-h  | 93.00     | 87.88     | **89.79** | 
-| CPRE     | CTLD-a  | 91.09     | 77.66     | **81.02** | 
-| IPRE     | CTLD-h  | 93.00     | 87.88     | **89.79** | 
-| IPRE     | CTLD-a  | 91.09     | 77.66     | **81.02** | 
+| Model    | Precision | Recall    | F1        |
+| -------- | --------- | --------- | --------- | 
+| D-Tensor | 74.88     | 61.56     | 67.57     | 
+| Sphere   | 87.85     | 85.16     | 86.48     | 
+| CEE      | 83.34     | 81.51     | 82.41     | 
+|TraConcept| 87.88     | **89.79** | 88.82     | 
+| DPRE     | 88.41     | 85.97     | 87.17     | 
+| CPRE     | **89.04** | 87.40     | 88.21     | 
+| IPRE     | 89.01     | 88.72     | **88.86** | 
+
+CTLD-a:
+
+| Model    | Precision | Recall    | F1        |
+| -------- | --------- | --------- | --------- | 
+| D-Tensor | 70.15     | 60.18     | 64.78     | 
+| Sphere   | 75.37     | 76.39     | 75.87     | 
+| CEE      | 70.15     | 68.29     | 69.20     | 
+|TraConcept| 77.66     | 81.02     | 79.31     | 
+| DPRE     | **80.60** | 79.37     | 79.98     | 
+| CPRE     | 78.27     | 80.49     | 79.36     | 
+| IPRE     | 79.67     | **82.14** | **80.88** | 
 
 > D-Tensor: Dual tensor model for detecting asymmetric lexicosemantic relations. EMNLP 2017
 >
