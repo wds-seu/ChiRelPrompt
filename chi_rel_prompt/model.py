@@ -12,7 +12,7 @@ from .list_keeper import ListKeeper
 from .util import Dataset
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"  # to turn off warning message
-__all__ = 'RelBERT'
+__all__ = 'ChiRelPrompt'
 preset_templates = {
         "a": "我发现了<subj>和<obj>之间的关系:<subj>是<obj>的<mask>",
         "b": "我发现了<subj>和<obj>之间的关系:<subj>的<mask>包括<obj>",
