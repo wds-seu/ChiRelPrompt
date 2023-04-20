@@ -1,4 +1,4 @@
-name: pytorch_py3.6
+name: pytorch
 channels:
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
@@ -42,4 +42,3 @@ dependencies:
     - transformers==3.5.1
     - typing-extensions==3.7.4.3
     - urllib3==1.26.2
-prefix: /home/wds/Documents/anaconda3/envs/pytorch_py3.6
