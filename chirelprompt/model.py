@@ -152,13 +152,13 @@ class ChiRelPrompt:
             if 'template' in model_config.chirelprompt_config:
                 self.template = model_config.chirelprompt_config['template']
             else:
-                # self.custom_template_type = model_config.relbert_config['custom_template_type']
-                self.custom_template = model_config.relbert_config['custom_template']
+                # self.custom_template_type = model_config.chirelprompt_config['custom_template_type']
+                self.custom_template = model_config.chirelprompt_config['custom_template']
         else:
             self.mode = mode
             self.is_trained = False
             if template_type in preset_templates:
-                # model_config.update({'relbert_config': {'mode': mode, 'custom_template_type': template_type}})
+                # model_config.update({'chirelprompt_config': {'mode': mode, 'custom_template_type': template_type}})
                 self.custom_template = preset_templates[template_type]
                 model_config.update({'chirelprompt_config': {'mode': mode, 'custom_template': self.custom_template}})
             else:
